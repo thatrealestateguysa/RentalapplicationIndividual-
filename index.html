@@ -39,20 +39,20 @@
   <div class="min-h-screen flex flex-col">
     <!-- Header -->
     <header class="bg-slate-900/95 border-b border-slate-800 backdrop-blur">
-      <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between gap-4">
         <div class="flex items-center gap-4">
-          <!-- Replace src with your logo path -->
+          <!-- KW Explore logo -->
           <img
             src="images/kw-explore-logo.png"
             alt="KW Explore | Keller Williams Realty"
-            class="h-12 w-auto"
+            class="h-10 sm:h-12 w-auto"
           />
-          <div>
-            <h1 class="text-xl font-semibold tracking-tight text-white">
+          <div class="min-w-0">
+            <h1 class="text-base sm:text-xl font-semibold tracking-tight text-white">
               Rental Application – KW Explore / Property Revolution
             </h1>
-            <p class="text-sm text-slate-300">
-              Complete the forms, pay the credit check, upload everything, and we handle the rest.
+            <p class="mt-1 text-xs sm:text-sm text-slate-300">
+              Download, complete, pay the credit check, upload or email everything in one place.
             </p>
           </div>
         </div>
@@ -61,36 +61,38 @@
 
     <!-- Main content -->
     <main class="flex-1">
-      <div class="max-w-5xl mx-auto px-4 py-8 space-y-8">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 sm:space-y-8">
         <!-- Download application pack -->
-        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-6 space-y-4">
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-4 sm:p-6 space-y-4">
           <h2 class="text-lg font-semibold text-white">Step 1: Download the application pack</h2>
           <p class="text-sm md:text-base text-slate-300">
-            Please download, complete, sign and initial these forms. You will upload the signed versions together with your proof of payment.
+            Please download, complete, sign and initial these forms. You will upload the signed versions
+            together with your proof of payment, or email them to our team.
           </p>
-          <div class="grid sm:grid-cols-2 gap-4">
+          <div class="grid sm:grid-cols-2 gap-3 sm:gap-4">
             <a
               href="docs/rental-application.pdf"
               download
-              class="inline-flex items-center justify-center rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:border-kwred hover:text-kwred transition"
+              class="inline-flex w-full sm:w-auto items-center justify-center rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:border-kwred hover:text-kwred transition"
             >
               Download Rental Application (PDF)
             </a>
             <a
               href="docs/fic-form.pdf"
               download
-              class="inline-flex items-center justify-center rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:border-kwred hover:text-kwred transition"
+              class="inline-flex w-full sm:w-auto items-center justify-center rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:border-kwred hover:text-kwred transition"
             >
               Download FIC / Compliance Form (PDF)
             </a>
           </div>
           <p class="text-xs text-slate-400">
-            Note: Question 6 and Question 8 on the KW Explore Questionnaire for Natural Persons (Schedule 3) are not applicable. The last page is for office use only – just sign/initial where indicated.
+            Note: Question 6 and Question 8 on the KW Explore Questionnaire for Natural Persons (Schedule 3) are not applicable.
+            The last page is for office use only – just sign/initial where indicated.
           </p>
         </section>
 
         <!-- Instructions about forms -->
-        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-6 space-y-4">
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-4 sm:p-6 space-y-4">
           <h2 class="text-lg font-semibold text-white">Step 2: Complete and sign the forms</h2>
           <ul class="list-disc pl-5 space-y-2 text-sm md:text-base text-slate-300">
             <li>
@@ -98,7 +100,8 @@
               <strong>not applicable</strong>. Leave them blank.
             </li>
             <li>
-              The <strong>last page</strong> of the questionnaire is for office use only. Do not fill in any details there – just sign and initial where indicated.
+              The <strong>last page</strong> of the questionnaire is for office use only.
+              Do not fill in any details there – just sign and initial where indicated.
             </li>
             <li>
               Please <strong>sign and initial on each page</strong> of all documents you complete.
@@ -110,7 +113,7 @@
         </section>
 
         <!-- Credit check + banking details -->
-        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-6 space-y-4">
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-4 sm:p-6 space-y-4">
           <h2 class="text-lg font-semibold text-white">Step 3: Pay the R170 credit check fee</h2>
           <p class="text-sm md:text-base text-slate-300">
             On the rental application form you will see ABSA banking details. Please pay
@@ -152,6 +155,7 @@
               </h3>
               <ul class="mt-3 list-disc pl-5 space-y-1 text-sm text-slate-300">
                 <li>Pay R170 per applicant using the details alongside.</li>
+                <li><strong>If you are not banking with ABSA, please pay the R170 as an Immediate Payment so that it clears without delay.</strong></li>
                 <li>Email or upload your proof of payment together with your signed forms.</li>
                 <li>
                   We run a credit check on your profile and send the results to the owner of the property.
@@ -167,10 +171,10 @@
         </section>
 
         <!-- Documents required -->
-        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-6 space-y-4">
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-4 sm:p-6 space-y-4">
           <h2 class="text-lg font-semibold text-white">Step 4: Prepare your supporting documents</h2>
           <p class="text-sm md:text-base text-slate-300">
-            Please scan or clearly photograph each document and have them ready to upload/send with your application:
+            Please scan or clearly photograph each document and have them ready to upload or email with your application:
           </p>
           <ul class="list-disc pl-5 space-y-1 text-sm md:text-base text-slate-300">
             <li>Bank confirmation letter.</li>
@@ -182,20 +186,29 @@
         </section>
 
         <!-- Quick capture + uploads -->
-        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-6 space-y-4">
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-4 sm:p-6 space-y-4">
           <h2 class="text-lg font-semibold text-white">Step 5: Capture your details & upload files</h2>
           <p class="text-sm md:text-base text-slate-300">
             This form helps us match your details to your payment and documents.
-            You can connect this to your preferred back-end (Netlify Forms, Google Apps Script, etc.)
-            by updating the <code>form</code> <code>action</code> attribute.
+            For automation, connect the form <code>action</code> to a back-end that emails or stores submissions.
+            All applications should be emailed to:
+          </p>
+          <p class="text-sm text-kwred font-semibold">
+            <a href="mailto:devin.lohmann@kwsa.co.za">devin.lohmann@kwsa.co.za</a> ·
+            <a href="mailto:dawie.dutoit@kwsa.co.za">dawie.dutoit@kwsa.co.za</a> ·
+            <a href="mailto:maryna.muller@kwsa.co.za">maryna.muller@kwsa.co.za</a>
           </p>
 
           <form
             class="space-y-6"
             method="POST"
-            action="#"
+            action="https://formsubmit.co/devin.lohmann@kwsa.co.za"
             enctype="multipart/form-data"
           >
+            <!-- FormSubmit automation: sends emails to Devin (To) and Dawie & Maryna (CC) -->
+            <input type="hidden" name="_cc" value="dawie.dutoit@kwsa.co.za,maryna.muller@kwsa.co.za" />
+            <input type="hidden" name="_subject" value="New Rental Application Submission" />
+            <input type="hidden" name="_template" value="table" />
             <!-- Property details -->
             <div class="grid md:grid-cols-2 gap-4">
               <div>
@@ -299,7 +312,7 @@
                     name="documentsReady"
                     class="rounded border-slate-600 bg-slate-950 text-kwred focus:ring-kwred"
                   />
-                  <span>All required supporting documents are ready to upload/send.</span>
+                  <span>All required supporting documents are ready to upload/email.</span>
                 </label>
               </div>
             </div>
@@ -309,7 +322,7 @@
               <p class="font-medium text-slate-200">
                 Upload your signed forms and proof of payment
               </p>
-              <div class="grid md:grid-cols-2 gap-4">
+              <div class="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label class="block text-xs font-medium text-slate-300"
                     >Proof of Payment (R170 credit check)</label
@@ -352,7 +365,10 @@
                 </div>
               </div>
               <p class="text-xs text-slate-400">
-                Note: If your back-end does not support file uploads, you can remove these fields and instruct applicants to email their documents directly to the contacts below.
+                Even if you upload here, please also email your full application pack and proof of payment to
+                <span class="text-kwred font-semibold">devin.lohmann@kwsa.co.za</span>,
+                <span class="text-kwred font-semibold">dawie.dutoit@kwsa.co.za</span> and
+                <span class="text-kwred font-semibold">maryna.muller@kwsa.co.za</span>.
               </p>
             </div>
 
@@ -360,7 +376,7 @@
             <div class="pt-2">
               <button
                 type="submit"
-                class="inline-flex items-center justify-center rounded-md bg-kwred px-6 py-2.5 text-sm font-semibold text-white shadow-sm shadow-red-900/50 hover:bg-red-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-kwred focus-visible:ring-offset-slate-950"
+                class="inline-flex w-full sm:w-auto items-center justify-center rounded-md bg-kwred px-6 py-2.5 text-sm font-semibold text-white shadow-sm shadow-red-900/50 hover:bg-red-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-kwred focus-visible:ring-offset-slate-950"
               >
                 Submit Application Details
               </button>
@@ -369,7 +385,7 @@
         </section>
 
         <!-- Contact section -->
-        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-6 space-y-4">
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl shadow-lg shadow-black/40 p-4 sm:p-6 space-y-4">
           <h2 class="text-lg font-semibold text-white">Need help with your application?</h2>
           <p class="text-sm md:text-base text-slate-300">
             If you have any questions about the forms, the R170 credit check, or the required
@@ -388,7 +404,7 @@
               </p>
               <p class="text-sm text-slate-200">
                 Email:
-                <a href="mailto:MARYNA.MULLER@KWSA.CO.ZA" class="text-kwred font-medium">
+                <a href="mailto:maryna.muller@kwsa.co.za" class="text-kwred font-medium">
                   maryna.muller@kwsa.co.za
                 </a>
               </p>
@@ -405,7 +421,7 @@
               </p>
               <p class="text-sm text-slate-200">
                 Email:
-                <a href="mailto:FRANCOIS.MULLER@KWSA.CO.ZA" class="text-kwred font-medium">
+                <a href="mailto:francois.muller@kwsa.co.za" class="text-kwred font-medium">
                   francois.muller@kwsa.co.za
                 </a>
               </p>
@@ -420,6 +436,12 @@
                   +27 62 650 2292
                 </a>
               </p>
+              <p class="text-sm text-slate-200">
+                Email:
+                <a href="mailto:devin.lohmann@kwsa.co.za" class="text-kwred font-medium">
+                  devin.lohmann@kwsa.co.za
+                </a>
+              </p>
             </div>
 
             <div class="border border-slate-800 rounded-xl p-4 bg-slate-950/40">
@@ -429,6 +451,12 @@
                 Phone:
                 <a href="tel:+27840624865" class="text-kwred font-medium">
                   +27 84 062 4865
+                </a>
+              </p>
+              <p class="text-sm text-slate-200">
+                Email:
+                <a href="mailto:dawie.dutoit@kwsa.co.za" class="text-kwred font-medium">
+                  dawie.dutoit@kwsa.co.za
                 </a>
               </p>
             </div>
@@ -443,7 +471,7 @@
 
     <!-- Footer -->
     <footer class="bg-slate-950 border-t border-slate-800">
-      <div class="max-w-5xl mx-auto px-4 py-4 text-xs text-slate-500 flex flex-col md:flex-row items-center justify-between gap-2">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-xs text-slate-500 flex flex-col md:flex-row items-center justify-between gap-2">
         <span>&copy; <span id="year"></span> KW Explore Realty &amp; Property Revolution. All rights reserved.</span>
         <span>FICA and credit checks required before occupation.</span>
       </div>

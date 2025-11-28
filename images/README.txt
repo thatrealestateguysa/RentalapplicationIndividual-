@@ -1,0 +1,1 @@
+Place your kw-explore-logo.png in this folder with that exact filename.
